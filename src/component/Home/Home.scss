@@ -1,0 +1,76 @@
+$main-color: #0cc;
+#Home {
+    margin-left: 30%;
+    padding: 100px 50px;
+    .search {
+        border: 1px solid $main-color;
+    }
+    .btn-search {
+        background-color: $main-color;
+        color: #fff;
+    }
+    .hr {
+        border-top: 5px solid $main-color;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .post {
+        margin-bottom: 10px;
+        height: 550px;
+        margin-bottom: 30px;
+        .postinfo {
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 10px;
+        }
+        #New {
+            position: absolute;
+            background-color: #0cc;
+            color: #fff;
+            padding: 10px;
+            right: 0;
+            top: -20px;
+            border-radius: 15px;
+        }
+    }
+    .pageNavi {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        span {
+            padding: 10px;
+            background-color: $main-color;
+            margin-left: 10px;
+            margin-top: 50px;
+            color: #fff;
+            width: 100px;
+            text-align: center;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+       .Prev {
+           background-color: #eee;
+           color: #333;
+           cursor: not-allowed;
+       }
+    }
+    .page-item {
+        .page-link {
+            color: #333;
+            &.active {
+                background-color: #0cc;
+                color: #fff;
+            }
+        }
+    }
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media (max-width: 767px){
+    #Home {
+        margin-left: 0;
+        padding: 30px 0 ;
+    }
+}

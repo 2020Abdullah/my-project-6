@@ -1,0 +1,99 @@
+#singlePost {
+    margin-left: 30%;
+    padding: 100px 50px;
+    .search {
+        border: 1px solid #0cc;
+    }
+    .btn-search {
+        background-color: #0cc;
+        color: #fff;
+    }
+    .hr {
+        border-top: 5px solid #0cc;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    video {
+        width: 100%;
+    }
+    .post {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        
+        p {
+            color: #333;
+        }
+        span {
+            float: right;
+        }
+        .post-comments {
+            h2 {
+                color: #0cc;
+                border-bottom: 5px solid #0cc;
+                padding-bottom: 10px;
+                font-size: 20px;
+            }
+            .comment-box {
+                margin-top: 30px;
+                figure {
+                    text-align: center;
+                    img {
+                        border-radius: 50%;
+                    }
+                }
+                .comment-content {
+                    p {
+                        margin-left: 30px;
+                    }
+                }
+            }
+        }
+        .comment-form {
+            margin-top: 30px;
+            input {
+                margin-bottom: 30px;
+            }
+            textarea {
+                height: 100px;
+                margin-bottom: 30px;
+            }
+            .btn-submit {
+                background-color: #0cc;
+                color: #fff;
+            }
+        }
+    }
+
+    .sidebar {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        .sidebar-box {
+            margin-bottom: 30px;
+            h2 {
+                font-size: 20px;
+                color: #0cc;
+                border-bottom: 5px solid #0cc;
+                padding-bottom: 10px;
+            }
+            ul {
+                li {
+                    color: #0cc;
+                }
+            }
+            .post-thumb {
+                margin-bottom: 10px;
+            }
+        }
+    }
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+@media (max-width: 767px){
+    #singlePost {
+        margin-left: 0;
+        padding: 30px 0;
+    }
+}
